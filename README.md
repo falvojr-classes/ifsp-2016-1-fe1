@@ -1,6 +1,6 @@
 # Ferramentas de Desenvolvimento de Aplicativos 1
 
-Repositório com os exercícios realizados em aula, além do plano de ensino da disciplina FE1. Essa página disponibiliza o código-fonte das atividades e todos os links para os slides apresentados, através dos quais os alunos podem interagir através de comentários.
+Repositório com os exercícios realizados em aula, além do plano de ensino da disciplina FE1. Essa página disponibiliza o código-fonte das atividades e todos os links para os slides apresentados, através dos quais os alunos podem interagir com comentários.
 
 ## Objetivos
 
