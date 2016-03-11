@@ -1,7 +1,7 @@
 package br.edu.ifsp.fe1.licao01;
 
 /**
- * 7. Faça um programa na linguagem C que receba o custo de um espetáculo
+ * 5. Faça um programa na linguagem C que receba o custo de um espetáculo
  * teatral e o preço do convite desse espetáculo. Esse programa deve calcular e
  * mostrar a quantidade de convites que devem ser vendidos para que pelo menos o
  * custo do espetáculo seja alcançado.

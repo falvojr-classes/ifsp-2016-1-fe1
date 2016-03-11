@@ -1,7 +1,7 @@
 package br.edu.ifsp.fe1.licao01;
 
 /**
- * 6. Para sabermos quanto vamos pagar pela conta de energia elétrica,
+ * 4. Para sabermos quanto vamos pagar pela conta de energia elétrica,
  * multiplicamos a potência do eletrodoméstico (watts) pelo número médio de
  * horas que o mesmo permanece ligado por dia. Sabendo-se que o quilowatt-hora
  * (kwh) custa R$ 0,39, faça um programa em linguagem C que receba a potência do
