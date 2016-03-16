@@ -5,7 +5,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-public class MainCliente {
+class MainCliente {
     
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente();
@@ -17,10 +17,10 @@ public class MainCliente {
         cliente2.codigo = 2;
         cliente2.nome = "Valdeco";
         
-        System.out.println(cliente1.codigo);
-        System.out.println(cliente1.nome);
-        System.out.println(cliente2.codigo);
-        System.out.println(cliente2.nome);
+        String saida = String.format("Codigo %d = %s", cliente1.codigo, cliente1.nome);
+   
+        System.out.println(saida);
+        System.out.println(String.format("Codigo %d = %s", cliente2.codigo, cliente2.nome));
     }
     
 }

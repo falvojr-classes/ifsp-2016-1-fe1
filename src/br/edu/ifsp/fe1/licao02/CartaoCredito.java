@@ -8,7 +8,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-public class CartaoCredito {
+class CartaoCredito {
     long numero;
     String dataExpiracao;
 }
