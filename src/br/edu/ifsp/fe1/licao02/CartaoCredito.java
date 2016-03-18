@@ -9,6 +9,14 @@ package br.edu.ifsp.fe1.licao02;
  * @author falvojr
  */
 class CartaoCredito {
+
     long numero;
     String dataExpiracao;
+    
+    /**
+     * 11. Defina um vínculo entre os objetos que representam os clientes e os
+     * objetos que representam os cartões de crédito. Para isso, você deve
+     * alterar a classe CartaoCredito.
+     */
+    Cliente cliente;
 }
