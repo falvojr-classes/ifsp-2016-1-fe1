@@ -1,7 +1,7 @@
 package br.edu.ifsp.fe1.licao02;
 
 /**
- * 15. Teste o relacionamento entre contas e agências.
+ * 14. Teste o relacionamento entre contas e agências.
  *
  * @author falvojr
  */
@@ -11,8 +11,8 @@ class MainContaAgencia {
 
         // Cria e configura uma Conta
         Conta conta = new Conta();
-        conta.numero = 1;
-        conta.saldo = 1000;
+        conta.numero = 14;
+        conta.saldo = 2000;
 
         // Cria e configura uma Agencia
         Agencia agencia = new Agencia();
