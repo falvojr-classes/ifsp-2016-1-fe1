@@ -10,5 +10,12 @@ class Conta {
 
     int numero;
     double saldo;
-    double limite = 100.0;
+    double limite = 1000.0;
+
+    /**
+     * 13. Defina um vínculo entre os objetos que representam as agências e os
+     * objetos que representam os contas. Para isso, você deve alterar a classe
+     * Conta.
+     */
+    Agencia agencia;
 }
