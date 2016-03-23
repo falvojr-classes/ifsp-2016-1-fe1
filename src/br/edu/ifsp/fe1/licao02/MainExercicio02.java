@@ -5,7 +5,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-class MainCliente {
+class MainExercicio02 {
     
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente();

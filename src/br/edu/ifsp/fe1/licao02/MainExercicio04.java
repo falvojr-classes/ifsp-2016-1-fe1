@@ -6,7 +6,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-class MainCartaoCredito {
+class MainExercicio04 {
 
     public static void main(String[] args) {
         CartaoCredito cartao1 = new CartaoCredito();

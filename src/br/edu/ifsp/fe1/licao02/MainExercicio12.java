@@ -5,7 +5,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-class MainCartaoCreditoCliente {
+class MainExercicio12 {
 
     public static void main(String[] args) {
         

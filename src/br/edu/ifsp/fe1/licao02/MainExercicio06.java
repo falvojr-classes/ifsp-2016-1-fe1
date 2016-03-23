@@ -6,7 +6,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-class MainAgencia {
+class MainExercicio06 {
 
     public static void main(String[] args) {
         Agencia agencia1 = new Agencia();

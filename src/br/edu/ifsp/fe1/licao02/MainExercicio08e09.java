@@ -9,7 +9,7 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-class MainConta {
+class MainExercicio08e09 {
 
     public static void main(String[] args) {
         Conta conta1 = new Conta();
