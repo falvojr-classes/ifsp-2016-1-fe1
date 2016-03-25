@@ -18,3 +18,6 @@ Identificar os conceitos pilares do paradigma orientado a objetos: abstração, 
 8. Estruturas de Dados
 9. GUI (Swing)
 
+## Trabalhos
+
+1. [Trabalho Preparatório para A1](https://docs.google.com/presentation/d/1SYf1Fd_-pYa6-twIrhoD8c-VR7AEq8xQcK3awDRJwMM/edit?usp=sharing)
