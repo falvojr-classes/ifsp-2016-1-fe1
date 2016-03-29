@@ -19,8 +19,14 @@ public class MainExercicio18 {
         conta.deposita(30);
         conta.deposita(30);
         conta.deposita(30);
-        conta.saca(90);
+        conta.deposita(30);
+        conta.deposita(30);
         
-        System.out.println(conta.saldo);
+        conta.imprimeExtrato();
+        
+        double valorSaque = conta.consultaSaldoDisponivel();
+        conta.saca(valorSaque);
+        
+        conta.imprimeExtrato();
     }
 }

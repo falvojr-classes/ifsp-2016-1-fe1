@@ -27,4 +27,16 @@ class Conta {
     void saca(double valorSaque) {
         this.saldo -= valorSaque;
     }
+
+    void imprimeExtrato() {
+        String saida = String.format("Numero: %d\nSaldo: %.2f\nLimite: %.2f",
+                this.numero, this.saldo, this.limite);
+        System.out.println(saida);
+    }
+
+    double consultaSaldoDisponivel() {
+        double saldoDisponivel = this.saldo + this.limite;
+        return saldoDisponivel;
+    }
+
 }
