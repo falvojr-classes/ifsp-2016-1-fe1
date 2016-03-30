@@ -12,11 +12,25 @@ class CartaoCredito {
 
     long numero;
     String dataExpiracao;
-    
+
     /**
      * 11. Defina um vínculo entre os objetos que representam os clientes e os
      * objetos que representam os cartões de crédito. Para isso, você deve
      * alterar a classe CartaoCredito.
      */
     Cliente cliente;
+
+    /**
+     * 23. Acrescente um construtor na classe CartaoCredito que receba um número
+     * como parâmetro.
+     *
+     * @param numero valor que será atribuído ao atributo numero do
+     * CartaoCredito.
+     */
+    CartaoCredito(long numero) {
+        this.numero = numero;
+    }
+
+    CartaoCredito() {
+    }
 }

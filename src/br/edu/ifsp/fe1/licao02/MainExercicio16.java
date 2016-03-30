@@ -11,29 +11,23 @@ class MainExercicio16 {
 
     public static void main(String[] args) {
         // Objeto que representa a Agencia 825:
-        Agencia agencia825 = new Agencia();
-        agencia825.numero = 825;
+        Agencia agencia825 = new Agencia(825);
         
         // Objeto que representa a Conta 1:
-        Conta contaEsposo = new Conta();
+        Conta contaEsposo = new Conta(agencia825);
         contaEsposo.numero = 1;
         contaEsposo.limite = 3000;
         
         // Objeto que representa a Conta 2:
-        Conta contaEsposa = new Conta();
+        Conta contaEsposa = new Conta(agencia825);
         contaEsposa.numero = 2;
         contaEsposa.limite = 1500;
         
         // Objeto que representa a Conta 3:
-        Conta contaFilho = new Conta();
+        Conta contaFilho = new Conta(agencia825);
         contaFilho.numero = 3;
         
-        // Relaciona as Contas a Agencia 825:
-        contaEsposo.agencia = agencia825;
-        contaEsposa.agencia = agencia825;
-        contaFilho.agencia = agencia825;
-        
-        // "Prova" que todas as ag^encias 
+        // "Prova" que todas as agências 
         System.out.println(contaEsposo.agencia);
         System.out.println(contaEsposa.agencia);
         System.out.println(contaFilho.agencia);

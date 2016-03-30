@@ -20,6 +20,16 @@ class Conta {
     double limite = 500.0;
     Agencia agencia;
 
+    /**
+     * 25. Acrescente um construtor na classe Conta para receber uma referência como
+     * parâmetro.
+     *
+     * @param agencia referência do tipo Agencia.
+     */
+    Conta(Agencia agencia) {
+        this.agencia = agencia;
+    }
+
     void deposita(double valorDeposito) {
         this.saldo += valorDeposito;
     }

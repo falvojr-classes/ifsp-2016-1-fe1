@@ -9,17 +9,14 @@ class MainExercicio14 {
 
     public static void main(String[] args) {
 
-        // Cria e configura uma Conta
-        Conta conta = new Conta();
+        // Cria e configura uma Agencia
+        Agencia agencia = new Agencia(1);
+
+        // Cria passando uma referência do tipo Agencia e configura os atributos
+        // restantes para uma Conta
+        Conta conta = new Conta(agencia);
         conta.numero = 14;
         conta.saldo = 2000;
-
-        // Cria e configura uma Agencia
-        Agencia agencia = new Agencia();
-        agencia.numero = 1;
-
-        // Relaciona Conta com Agencia
-        conta.agencia = agencia;
 
         System.out.println(conta.agencia.numero);
         System.out.println(conta.numero);

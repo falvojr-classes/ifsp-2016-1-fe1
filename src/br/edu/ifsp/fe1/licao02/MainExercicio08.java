@@ -9,11 +9,11 @@ package br.edu.ifsp.fe1.licao02;
  *
  * @author falvojr
  */
-class MainExercicio08e09 {
+class MainExercicio08 {
 
     public static void main(String[] args) {
-        Conta conta1 = new Conta();
-        Conta conta2 = new Conta();
+        Conta conta1 = new Conta(null);
+        Conta conta2 = new Conta(null);
 
         // Exercicio 9:
         System.out.println(conta1.numero);

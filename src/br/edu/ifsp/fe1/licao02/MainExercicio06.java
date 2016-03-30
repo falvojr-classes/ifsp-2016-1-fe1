@@ -9,12 +9,8 @@ package br.edu.ifsp.fe1.licao02;
 class MainExercicio06 {
 
     public static void main(String[] args) {
-        Agencia agencia1 = new Agencia();
-        Agencia agencia2 = new Agencia();
-
-        agencia1.numero = 1;
-
-        agencia2.numero = 2;
+        Agencia agencia1 = new Agencia(1);
+        Agencia agencia2 = new Agencia(2);
 
         System.out.println(agencia1.numero);
         System.out.println(agencia2.numero);
