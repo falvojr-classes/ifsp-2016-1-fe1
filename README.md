@@ -11,7 +11,7 @@ Identificar os conceitos pilares do paradigma orientado a objetos: abstração, 
 1. [Introdução](https://docs.google.com/presentation/d/1mgqaLP11Wmh9TK1tme3EvA63vsfdiZQPFdweSU22frg/edit?usp=sharing)
 2. [Orientação a Objetos](https://docs.google.com/presentation/d/1H0v8IyDM3r9QuuXuF9u4Lh1RMAE_D8JNZaXIcwSxB7I/edit?usp=sharing)
 3. [Atributos e Métodos de Classe](https://docs.google.com/presentation/d/1deYotQ4mIgbcHvNWbXLThtX7FoMr6Gr6EmiopuWlgkM/edit?usp=sharing)
-4. Encapsulamento
+4. [Encapsulamento](https://docs.google.com/presentation/d/1f34CpKMTBoO5TuWKUsMioU5S-namjmx1cC2xrdTqLEU/edit?usp=sharing)
 5. Herança
 6. Polimorfismo
 7. Classes Abstratas e Interfaces
