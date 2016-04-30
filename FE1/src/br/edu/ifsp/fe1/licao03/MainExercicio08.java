@@ -1,6 +1,6 @@
 package br.edu.ifsp.fe1.licao03;
 
-import java.util.concurrent.ThreadLocalRandom;
+import br.edu.ifsp.fe1.util.Fe1Util;
 
 /**
  * 8. Crie uma nova classe de testes que instâncie um número aleatório de novos
@@ -19,15 +19,12 @@ class MainExercicio08 {
 
     public static void main(String[] args) {
         
-        int aleatorio = MainExercicio08.geraAleatorio(0, 50);
+        int aleatorio = Fe1Util.geraAleatorio(0, 50);
         
         for(int i = 1; i <= aleatorio; i++) {
-            Cliente cliente = new Cliente("Cliente " + aleatorio);
+            Cliente cliente = new Cliente("Cliente " + i);
             System.out.println(cliente.nome);
         }
     }
 
-    static int geraAleatorio(int min, int max) {
-        return ThreadLocalRandom.current().nextInt(min, max + 1);
-    }
 }
