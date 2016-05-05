@@ -28,5 +28,6 @@ class MainExercicio16 {
         
         System.out.printf("A idade de %s eh %d\n", pessoa1.nome, pessoa1.idade);
         System.out.printf("A idade de %s eh %d\n", pessoa2.nome, pessoa2.idade);
+        System.out.println(Pessoa.qtdAniversarios);
     }
 }

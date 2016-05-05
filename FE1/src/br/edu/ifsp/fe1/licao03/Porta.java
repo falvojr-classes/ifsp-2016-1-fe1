@@ -20,7 +20,7 @@ class Porta {
     /**
      * Inicia por padrao como <b>false</b>.
      */
-    private boolean aberta;
+    boolean aberta;
     String cor;
     double dimensaoX;
     double dimensaoY;
@@ -40,7 +40,8 @@ class Porta {
     
     boolean estaAberta() {
         return this.aberta;
-    }  
+    } 
+    
     /**
      * Opcional...
      */

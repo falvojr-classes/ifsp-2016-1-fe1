@@ -21,8 +21,7 @@ class MainExercicio19 {
         porta.dimensaoY = 180.0;
         porta.dimensaoZ = 10.25;
         
-        boolean estaAberta = porta.estaAberta(); 
-        if (estaAberta) {
+        if (porta.estaAberta()) {
             System.out.println("Porta Aberta!");
         } else {
             System.out.println("Porta Fechada!");

@@ -18,7 +18,7 @@ class MainExercicio12 {
         Funcionario f2 = new Funcionario();
 
         f1.nome = "Funcionario 1";
-        f1.salario = 1000;
+        f1.salario = 1000; 
 
         f2.nome = "Funcionario 2";
         f2.salario = 2000;
@@ -28,9 +28,13 @@ class MainExercicio12 {
 
         double salarioBruto1 = f1.recuperaSalarioBruto(22);
         System.out.println(salarioBruto1);
+        
+        System.out.println(Funcionario.valeRefeicaoDiario);
 
         Funcionario.ajustaValeRefeicaoDiario(2);
 
+        System.out.println(Funcionario.valeRefeicaoDiario);
+        
         salarioBruto1 = f1.recuperaSalarioBruto(22);
         System.out.println(salarioBruto1);
 
