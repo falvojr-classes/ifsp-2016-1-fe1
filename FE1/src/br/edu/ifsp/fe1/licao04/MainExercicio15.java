@@ -6,10 +6,12 @@ package br.edu.ifsp.fe1.licao04;
  */
 class MainExercicio15 {
     public static void main(String[] args) {
+        // Criando Clube
         Clube clube = new Clube();
         clube.setNome("Ferroviaria");
         clube.setSaldo(500);
         
+        //Criando Jogadores do Clube
         Jogador jogador12 = new Jogador(clube);
         jogador12.setNome("Juca");
         jogador12.setNumero(12);
@@ -35,14 +37,14 @@ class MainExercicio15 {
         jogador10.setNumero(10);
         jogador10.setSalario(200);
         
-        // Pagando jogadores:
-        
+        // Pagando jogadores:      
         jogador3.recebeSalario();
         jogador5.recebeSalario();
         jogador8.recebeSalario();
         jogador10.recebeSalario();
         jogador12.recebeSalario();
         
+        //Imprimindo informacoes:
         System.out.printf("Saldo %s: %.2f\n\n", clube.getNome(), clube.getSaldo());
         System.out.printf("Felicidade %s: %s\n", jogador3.getNome(), jogador3.isFelicidade());
         System.out.printf("Felicidade %s: %s\n", jogador5.getNome(), jogador5.isFelicidade());
