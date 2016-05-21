@@ -8,6 +8,11 @@ class Secretaria extends Funcionario {
 
     private String ramal;
 
+    public Secretaria(String nome, double salario) {
+        super(nome, salario);
+        System.out.println("Secretaria criada!");
+    }
+
     public String getRamal() {
         return ramal;
     }

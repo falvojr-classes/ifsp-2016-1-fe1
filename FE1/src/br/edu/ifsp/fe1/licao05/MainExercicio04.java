@@ -9,21 +9,15 @@ package br.edu.ifsp.fe1.licao05;
 class MainExercicio04 {
 
     public static void main(String[] args) {
-        Gerente gerente = new Gerente();
-        Telefonista telefonista = new Telefonista();
-        Secretaria secretaria = new Secretaria();
+        Gerente gerente = new Gerente("Gerente", 1500);
+        Telefonista telefonista = new Telefonista("Telefonista", 800);
+        Secretaria secretaria = new Secretaria("Secretaria", 1750);
         
-        gerente.setNome("Gerente");
-        gerente.setSalario(1500);
         gerente.setUsuario("gerente.arq");
         gerente.setSenha("123456");
-        
-        telefonista.setNome("Telefonista");
-        telefonista.setSalario(800);
+
         telefonista.setCodigoEstacaoTrabalho(23);
-        
-        secretaria.setNome("Secretaria");
-        secretaria.setSalario(1750);
+
         secretaria.setRamal("8051");
         
         gerente.imprimirDados();

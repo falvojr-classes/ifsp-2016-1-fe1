@@ -8,6 +8,11 @@ class Telefonista extends Funcionario {
 
     private int codigoEstacaoTrabalho;
 
+    public Telefonista(String nome, double salario) {
+        super(nome, salario);
+        System.out.println("Telefonista criada!");
+    }
+
     public int getCodigoEstacaoTrabalho() {
         return codigoEstacaoTrabalho;
     }
