@@ -15,8 +15,7 @@ Identificar os conceitos pilares do paradigma orientado a objetos: abstração, 
 5. [Herança](https://docs.google.com/presentation/d/1IySzYwkh494RK9t-BezD-WhWtykmFcERNHKxIsEmbAQ/edit?usp=sharing)
 6. Polimorfismo
 7. Classes Abstratas e Interfaces
-8. Estruturas de Dados
-9. GUI (Swing)
+8. Swing (conceito explorado pelo Prof. José Ricardo)
 
 ## Trabalhos
 
