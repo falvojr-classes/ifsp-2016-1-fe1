@@ -3,10 +3,16 @@ package br.edu.ifsp.fe1.entidades;
 /**
  * Super classe com os atributos e metodos comuns a funcionarios.
  *
+ * 13. Usando o conceito de atributos de classe, implemente uma lógica que conte
+ * quantos funcionários (independentemente de tipo) foram criados em seu
+ * programa.
+ *
  * @author falvojr
  */
 public class Funcionario {
 
+    private static int contador;
+    
     private String nome;
     private double salario;
     private boolean feliz;
@@ -15,8 +21,13 @@ public class Funcionario {
     public Funcionario(double salario, Clube clube) {
         this.salario = salario;
         this.clube = clube;
+        Funcionario.contador++;
     }
 
+    public static int getContador() {
+        return Funcionario.contador;
+    }
+    
     public String getNome() {
         return nome;
     }

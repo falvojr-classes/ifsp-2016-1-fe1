@@ -7,13 +7,20 @@ package br.edu.ifsp.fe1.entidades;
  */
 public class Jogador extends Funcionario {
 
+    private static int contador;
+    
     private String posicao;
     private int numero;
 
     public Jogador(double salario, Clube clube) {
         super(salario, clube);
+        Jogador.contador++;
     }
 
+    public static int getContador() {
+        return Jogador.contador;
+    }
+    
     public String getPosicao() {
         return posicao;
     }

@@ -1,6 +1,7 @@
 package br.edu.ifsp.fe1;
 
 import br.edu.ifsp.fe1.entidades.Clube;
+import br.edu.ifsp.fe1.entidades.Funcionario;
 import br.edu.ifsp.fe1.entidades.Jogador;
 import br.edu.ifsp.fe1.entidades.PreparadorFisico;
 import br.edu.ifsp.fe1.entidades.Tecnico;
@@ -41,5 +42,9 @@ public class MainExercicio11 {
         System.out.println(jogador5.isFeliz());
         System.out.println(preparador.isFeliz());
         System.out.println(clube.getSaldo());
+        System.out.println(Funcionario.getContador());
+        System.out.println(Tecnico.getContador());
+        System.out.println(Jogador.getContador());
+        System.out.println(PreparadorFisico.getContador());
     }
 }
