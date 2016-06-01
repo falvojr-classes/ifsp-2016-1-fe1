@@ -15,4 +15,12 @@ public class Fe1Util {
     public static int geraAleatorio(int min, int max) {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
+    
+    public static void dormir(long tempoMilisegundos) {
+        try {
+            Thread.sleep(tempoMilisegundos);
+        } catch (InterruptedException ex) {
+            System.err.println(ex.getMessage());
+        }
+    }
 }
