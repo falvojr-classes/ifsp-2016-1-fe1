@@ -22,3 +22,4 @@ Identificar os conceitos pilares do paradigma orientado a objetos: abstração, 
 ## Trabalhos
 
 1. [Trabalho Preparatório para A1](https://docs.google.com/presentation/d/1SYf1Fd_-pYa6-twIrhoD8c-VR7AEq8xQcK3awDRJwMM/edit?usp=sharing)
+2. [Trabalho Preparatório para A2](https://docs.google.com/presentation/d/1z70_GaMxUDiUY97QOrHrStImbT7kSiiI0MzZxx2UWmE/edit?usp=sharing)
