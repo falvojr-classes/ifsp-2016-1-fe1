@@ -11,28 +11,28 @@ import br.edu.ifsp.fe1.util.Fe1Util;
 public class MainExercicio09 {
 
     public static void main(String[] args) {
-        Gerente gerente1 = new Gerente();
-        Gerente gerente2 = new Gerente("Arthur");
-        Telefonista telefonista1 = new Telefonista();
-        Telefonista telefonista2 = new Telefonista("Elton");
+        Funcionario gerente = new Gerente();
+        Funcionario telefonista = new Telefonista("Arthur");
+        Funcionario seguranca = new Seguranca();
+        Funcionario recepcionista = new Recepcionista("Elton");
         
-        gerente1.setNome("Patricia");
-        telefonista1.setNome("Suelen");
+        gerente.setNome("Patricia");
+        seguranca.setNome("Suelen");
         
-        PontoControle.registrarEntrada(gerente1);
+        PontoControle.registrarEntrada(gerente);
         Fe1Util.dormir(1000);
-        PontoControle.registrarSaida(gerente1);
+        PontoControle.registrarSaida(gerente);
         
-        PontoControle.registrarEntrada(telefonista1);
+        PontoControle.registrarEntrada(seguranca);
         Fe1Util.dormir(1000);
-        PontoControle.registrarSaida(telefonista1);
+        PontoControle.registrarSaida(seguranca);
         
-        PontoControle.registrarEntrada(gerente2);
+        PontoControle.registrarEntrada(telefonista);
         Fe1Util.dormir(1000);
-        PontoControle.registrarSaida(gerente2);
+        PontoControle.registrarSaida(telefonista);
         
-        PontoControle.registrarEntrada(telefonista2);
+        PontoControle.registrarEntrada(recepcionista);
         Fe1Util.dormir(1000);
-        PontoControle.registrarSaida(telefonista2);
+        PontoControle.registrarSaida(recepcionista);
     }
 }
