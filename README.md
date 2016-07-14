@@ -14,10 +14,10 @@ Identificar os conceitos pilares do paradigma orientado a objetos: abstração, 
 4. [Encapsulamento](https://docs.google.com/presentation/d/1f34CpKMTBoO5TuWKUsMioU5S-namjmx1cC2xrdTqLEU/edit?usp=sharing)
 5. [Herança](https://docs.google.com/presentation/d/1IySzYwkh494RK9t-BezD-WhWtykmFcERNHKxIsEmbAQ/edit?usp=sharing)
 6. [Polimorfismo](https://docs.google.com/presentation/d/1a4J4ZdfM0iig-xh-ejmyHeBep_KgJ-phiEktTpUNl50/edit?usp=sharing)
-7. Classes Abstratas e Interfaces
+7. Classes Abstratas e Interfaces¹
 8. Swing¹
 
-¹ Conceito explorado pelo Prof. José Ricardo
+¹ Conceitos explorados pelo Prof. José Ricardo nas primeiras aulas e informalmente durante a última semana de aula.
 
 ## Trabalhos
 
